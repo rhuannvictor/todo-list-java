@@ -2,6 +2,7 @@ package br.com.rhuannvictor.todolist.controller;
 
 import br.com.rhuannvictor.todolist.entity.ToDo;
 import br.com.rhuannvictor.todolist.service.ToDoService;
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,7 +16,7 @@ public class ToDoController {
     }
 
     @PostMapping
-    List<ToDo> create (@RequestBody ToDo toDo){
+    List<ToDo> create (@RequestBody @Valid ToDo toDo){
     return toDoService.creat(toDo);
    }
    @GetMapping
