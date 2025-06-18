@@ -25,7 +25,7 @@ public class ToDoController {
    }
    @PutMapping
    List<ToDo> upadte (@RequestBody ToDo toDo){
-    return toDoService.upadte(toDo);
+    return toDoService.update(toDo);
    }
    @DeleteMapping("{id}")
    List<ToDo> delete (@PathVariable("id") Long id){
