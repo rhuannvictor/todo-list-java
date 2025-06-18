@@ -19,6 +19,8 @@ public class ToDo {
     private Boolean realizado;
     private int prioridade;
 
+    public ToDo() {
+    }
     public ToDo(String nome, String descricao, Boolean realizado, int prioridade) {
         this.nome = nome;
         this.descricao = descricao;
