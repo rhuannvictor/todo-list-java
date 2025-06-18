@@ -2,9 +2,9 @@
   TODO List
 </h1>
 
-API para gerenciar tarefas (CRUD) que faz parte [desse desafio](https://github.com/simplify-liferay/desafio-junior-backend-simplify) para pessoas desenvolvedoras backend júnior, que se candidatam para a Simplify.
+API para gerenciar tarefas (CRUD) com propósito de exercitar os conhecimentos em Spring Boot.
 
-O projeto foi elaborado [nesse vídeo](https://youtu.be/IjProDV001o).
+O projeto inicial foi elaborado [nesse vídeo](https://youtu.be/IjProDV001o).
 
 ## Tecnologias
 
@@ -22,6 +22,7 @@ O projeto foi elaborado [nesse vídeo](https://youtu.be/IjProDV001o).
 - Injeção de Dependências
 - Tratamento de respostas de erro
 - Geração automática do Swagger com a OpenAPI 3
+- Interface gráfica local com Vaadin
 
 ## Como Executar
 
